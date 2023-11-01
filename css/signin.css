@@ -33,11 +33,16 @@
     border-bottom: 1px solid #ddd;
 }
 
+.signin__card h2 strong {
+    font-weight: 700;
+    color: #006633; 
+}
+
 .signin__card form {
     padding: 30px 22px;
 }
 
-.signin__card for input {
+.signin__card form input {
     width: 100%;
     margin-bottom: 12px;
     padding: 15px;
@@ -75,4 +80,12 @@
     color: #555;
     font-size: 14px;
     border-right: 1px solid #ddd;
+}
+
+.signin__card .actions a:last-child {
+    border-right: none;
+}
+
+.signin__card .actions a:hover {
+    text-decoration: underline;
 }
